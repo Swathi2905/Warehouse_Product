@@ -1,5 +1,6 @@
-# node-mysql-knex-socket
+# Run below commands
+npm i -g knex
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Deepu@143';
-flush privileges;
+knex migrate:latest
 
+npm start
